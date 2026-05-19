@@ -21,10 +21,10 @@ function App() {
 
       <ChildComponent1 onSelect={handleSelection} />
       <ChildComponent2 onSelect={handleSelection} />
-      <h2>
+  
+      <p>
         Selected Option:{selectedOption}
-        
-      </h2>
+          </p>
     </div>
   );
 }
