@@ -23,7 +23,7 @@ function App() {
       <ChildComponent2 onSelect={handleSelection} />
   
       <p>
-        Selected Option:{selectedOption}
+        Selected Option:  {selectedOption}
           </p>
     </div>
   );
